@@ -1,0 +1,706 @@
+{
+  "domain": "samchi_seclab.local",
+  "users": [
+    {
+      "name": "Ayodele Anaba",
+      "password": "matthew",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Chidera Ajayi",
+      "password": "sweety",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Obinna Iwu",
+      "password": "beautiful",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Funke Akande",
+      "password": "corazon",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Hafsat Ekwueme",
+      "password": "killer",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Rasheed Eboh",
+      "password": "victoria",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Chinonso Ganiyu",
+      "password": "dmayo",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Omotola Anozie",
+      "password": "cookie",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Femi Nwafor",
+      "password": "andrea",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Dolapo Mba",
+      "password": "iunie",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Ismaila Okonkwo",
+      "password": "alexander",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Oluwaseun Ijewere",
+      "password": "jasmine",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Taiwo Eze",
+      "password": "joseph",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Ikechukwu Ayeni",
+      "password": "pac96",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Uche Momoh",
+      "password": "alexis",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Janet Garba",
+      "password": "alejandra",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Emmanuel Odili",
+      "password": "vanessa",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Ngozi Fani-Kayode",
+      "password": "dragon",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Daniel Eke",
+      "password": "alexandra",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Mohammed Dare",
+      "password": "deoctubre",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Gbenga Oladipo",
+      "password": "bubbles",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Kudirat Jega",
+      "password": "lovers",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Michael Fagbemi",
+      "password": "honey",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Titi Balogun",
+      "password": "basketball",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Rebecca Nwankwoala",
+      "password": "angel1",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Tolulope Adegbite",
+      "password": "melissa",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Olumide Isiguzo",
+      "password": "louise",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Iretiola Nnamani",
+      "password": "summer",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Kemi Ezenwa",
+      "password": "rangers",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Joy Alabi",
+      "password": "goonsup",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Lamidi Adetokunbo",
+      "password": "estrella",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Adesuwa Kalu",
+      "password": "tequiero",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Nnamdi Aliyu",
+      "password": "computer",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Peter Maku",
+      "password": "eyes",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Chibuzo Kadiri",
+      "password": "hearts",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Oyinlola Abubakar",
+      "password": "loveyou",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Simisola Awolowo",
+      "password": "hannah",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Adekunle Folarin",
+      "password": "rachel",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Sikiru Bello",
+      "password": "diamond",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Damilola Obafemi",
+      "password": "naruto",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Jumoke Elumelu",
+      "password": "superman",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Ibrahim Dada",
+      "password": "family",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Omolara Olumide",
+      "password": "football",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Bukola Danjuma",
+      "password": "babies",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Bamidele Chukwu",
+      "password": "rainbow",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Victor Jimoh",
+      "password": "cool4school",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Chinyere Iwuanyanwu",
+      "password": "stephanie",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Gabriel Adejumo",
+      "password": "patricia",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Moses Adebayo",
+      "password": "orange",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Maryam Atanda",
+      "password": "rebelde",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Nneka Obiano",
+      "password": "blink182",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Suleiman Amadi",
+      "password": "maggie",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Temitope Musa",
+      "password": "gunsup",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Ifeanyi Agbaje",
+      "password": "cute4u",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Ladi Agboola",
+      "password": "secret",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Samuel Okafor",
+      "password": "cheese",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Peace Akintola",
+      "password": "shadow",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Racheal Nwosu",
+      "password": "chelsea",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Odion Nwankwo",
+      "password": "playboy",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Praise Obi",
+      "password": "miguel",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Esther Maduka",
+      "password": "cristina",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Emeka Mohammed",
+      "password": "dancer",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Lukman Iroegbu",
+      "password": "hunter",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Sarah Fashola",
+      "password": "shorty",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Olamide Kamaldeen",
+      "password": "brittany",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Kunle Egbetokun",
+      "password": "christian",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Babajide Emordi",
+      "password": "tweety",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Stephen Adeniyi",
+      "password": "carlos",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Deborah Azikiwe",
+      "password": "myspace",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Bello Alhassan",
+      "password": "robert",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Aisha Mustapha",
+      "password": "carolina",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Akintoye Nwankwocha",
+      "password": "princess1",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Joseph Kareem",
+      "password": "cherry",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Rotimi Eneh",
+      "password": "dolphin",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Efe Lawal",
+      "password": "snoopy",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Jelili Ogunleye",
+      "password": "themax",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Osas Adeniran",
+      "password": "stroke",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Uduak Hassan",
+      "password": "gabriel",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Halima Ogunbiyi",
+      "password": "softball",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Amaka Arigbabu",
+      "password": "ricardo",
+      "groups": [
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Chiamaka Ige",
+      "password": "junior",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Abiola Adelakun",
+      "password": "pokemon",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Sani Adebanjo",
+      "password": "brandon",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Philip Dawodu",
+      "password": "flower",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Ebuka Ihedioha",
+      "password": "hello",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Grace Makinde",
+      "password": "angels",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Onyeka Anyanwu",
+      "password": "adrian",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Lanre Ndukwe",
+      "password": "taylor",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Patrick Aderibigbe",
+      "password": "sakura",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Ejiro Adeola",
+      "password": "peanut",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Ogechi Ibrahim",
+      "password": "mylove",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Adaeze Okeke",
+      "password": "nathan",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Ijeoma Anigbogu",
+      "password": "heaven",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Sola Magaji",
+      "password": "whatever",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Yusuf Ahmed",
+      "password": "kisses",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Anayo Ezeani",
+      "password": "alejandro",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "John Ayodeji",
+      "password": "kids",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Aminu Adigun",
+      "password": "richard",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Chike Obasanjo",
+      "password": "manuel",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "James Ikpeazu",
+      "password": "lauren",
+      "groups": [
+        "Sales"
+      ]
+    }
+  ],
+  "groups": []
+}
