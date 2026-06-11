@@ -1,4 +1,5 @@
 # Active Directory Home Lab Simulation with PowerShell - NSUK.NG
+# Description
 This project delivers a structured set of PowerShell scripts and best‑practice guidance for building and managing an Active Directory (AD) home lab. Its purpose is to equip administrators with automation tools for essential directory operations including creating and organizing users, groups, and organizational units (OUs), assigning permissions, and enforcing security baselines. By integrating account lockout policies to defend against brute‑force attacks and password complexity rules to strengthen authentication, the lab serves as both a training environment and a reference model for secure AD management.
 # Prerequisites
 i. Windows Server 2016 or later
