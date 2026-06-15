@@ -1,3 +1,4 @@
+
 param(
 
     [string]$JSONFile = (Join-Path $PSScriptRoot ".\ad_schema.json")
@@ -82,8 +83,9 @@ function GetUsers{
             "name" = "$fname $lname"
             "password" = "$passwd" + (ComplexString)
             "SafeModeAdministratorPassword" = "$SafeModePassword"
-            "groups" = @(($get_random).name)
             "ou" = "OU=$(($get_random).name), $DN"
+            "groups" = @(($get_random).name)
+            
             
         } )
     $global:users += $new_users

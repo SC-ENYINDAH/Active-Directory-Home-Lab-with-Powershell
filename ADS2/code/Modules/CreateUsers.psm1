@@ -1,5 +1,6 @@
 Import-Module (Join-Path $PSScriptRoot "Modules\root_schema_generator.psm1")
 Import-Module (Join-Path $PSScriptRoot "Modules\password_security_policy.psm1")
+Import-Module (Join-Path $PSScriptRoot "Modules\Hold_Envariables.psm1")
 
 param (
         [string]$JSONFile = "$PSScriptRoot\ad_schema.json"
@@ -21,26 +22,33 @@ function Test-PasswordPolicy {
         throw "Password must be at least $($policy.MinPasswordLength) characters long."
     }
 
-    # Check complexity rules
+    # Check complexity rules and enhance if needed
     if ($policy.ComplexityEnabled) {
-        #$PassEnhancer = $false
+        $complexityFailed = (
+            $Password -notmatch '[A-Z]' -or
+            $Password -notmatch '[a-z]' -or
+            $Password -notmatch '\d' -or
+            $Password -notmatch '[^a-zA-Z0-9]'
+        )
 
-        if ($Password -notmatch '[A-Z]') { throw "Password does not meet complexity requirement" }
-        if ($Password -notmatch '[a-z]') { throw "Password does not meet complexity requirement" }
-        if ($Password -notmatch '\d')    { throw "Password does not meet complexity requirement" }
-        if ($Password -notmatch '[^a-zA-Z0-9]') { throw "Password does not meet complexity requirement" }
+        if ($complexityFailed) {
+            Write-Verbose "Password does not meet complexity requirements. Enhancing password."
+            
+        }
     }
 
     # Prevent username to be use as password
     if ($Password -like "*$UserName*") {
         throw "Password cannot contain your username."
     }
-    return $true
+    return $Password
 }
 
 function CreateADUser {
     param (
-        [Parameter(Mandatory=$true)]$UserObject
+        [Parameter(Mandatory=$true)]
+        $UserObject,
+        [string]$Passwd
     )
 
     try {
@@ -49,14 +57,18 @@ function CreateADUser {
         $name = $UserObject.name
         $password = $UserObject.password
         $ou = $UserObject.ou
-        $groups= $UserObject.groups
 
         #Create the first and last initials for the username
+        $samAccountName = Get-SamAccountName -Fullname $name
+        $userPrincipalName = Get-UserPrincipalName -samAccountName $samAccountName -DomainName $global:DomainName
+        $username = Get-SamAccountName -UserName $name
+
+        <#
         $firstname, $lastname = $name.split(" ")
         $username = ($firstname[0] + $lastname).ToLower()
         $samAccountName = $username
         $principalName = $username
-
+        #>
 
         #Verify that the @Global:DomainName is populated before creating the users
         if (-not $global:DomainName) {
@@ -64,11 +76,16 @@ function CreateADUser {
 
         }
 
-        # Validate password against policy
-        $password = Test-PasswordPolicy -Password $password -UserName $username
+        # Validate password against policy 
+
+        if (-not (Test-PasswordPolicy -Password $password -UserName $username)) {
+            Write-Verbose "==========Enhancing password=========="
+            $Password = EnhacePassword -Passwd $Password
+        }
+
+        $firstname, $lastname = $name.split(" ")
 
         #Creating the ADUser Object
-        $userPrincipalName = "$principalName@$global:DomainName"
         New-ADUser -Name $name -GivenName $firstname -Surname $lastname `
         -SamAccountName $samAccountName -UserPrincipalName $userPrincipalName `
         -AccountPassword (ConvertTo-SecureString $password -AsPlainText -Force) -Path $ou -PassThru | Enable-ADAccount
@@ -76,14 +93,6 @@ function CreateADUser {
 
         Write-Host "[+] ....User $name created successfully in $ou ...... [+]" -ForegroundColor Green
         Write-Log "[+] ...User $name created successfully with UPN $userPrincipalName... [+]" "SUCCESS"
-
-
-        #Work on from create group
-        <#foreach ($group in $groups) {
-            $groupPath = "OU=Groups,DC=$($DomainName.Split('.')[0]),DC=$($DomainName.Split('.')[1]),DC=$($DomainName.Split('.')[2]),DC=$($DomainName.Split('.')[3])"
-            New-LabGroup -Name $group -Path $groupPath
-            Add-LabUserToGroup -GroupName $group -UserSam $samAccountName
-        }#>
 
     }
     catch {

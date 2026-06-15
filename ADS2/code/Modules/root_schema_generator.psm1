@@ -33,6 +33,35 @@ function CreateGroup {
      return, $global:group
 }
 
+function EnhacePassword {
+    param (
+        [int]$Length = 2
+    )
+
+    # Character sets
+    $upper   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray()
+    $lower   = "abcdefghijklmnopqrstuvwxyz".ToCharArray()
+    $digits  = "0123456789".ToCharArray()
+    $special = "!@#$%^&*()-_=+[]{};:,.<>?/".ToCharArray()
+
+    # Ensure at least one of each type
+    $result = @()
+    $result += $upper  | Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
+    $result += $lower  | Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
+    $result += $digits | Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
+    $result += $special| Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
+
+    # Fill the rest randomly from all sets combined
+    $allChars = ($upper + $lower + $digits + $special)
+    $remaining = $Length - $result.Count
+    if ($remaining -gt 0) {
+        $result += $allChars | Get-Random -Count $remaining
+    }
+
+    # Shuffle and return as string
+    -join ($result | Sort-Object {Get-Random})
+}
+
 function GetUsers{
 
     param($grps)
@@ -52,7 +81,7 @@ function GetUsers{
             "password" = "$passwd"
             "groups" = @(($get_random).name)
             "SafeModeAdministratorPassword" = "$SafeModePassword"
-            "ou" = "OU=$(($get_random).name), $DN"
+            "path" = "OU=$(($get_random).name), $DN"
             
         } )
     $global:users += $new_users
@@ -136,4 +165,4 @@ function GetInput {
 }
 
 
-Export-ModuleMember -Function GetInput
+Export-ModuleMember -Function GetInput, EnhacePassword

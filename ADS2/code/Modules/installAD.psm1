@@ -1,3 +1,4 @@
+
 Import-Module (Join-Path $PSScriptRoot "Modules\root_schema_generator.psm1")
 Import-Module (Join-Path $PSScriptRoot "Modules\password_security_policy.psm1")
 
@@ -6,7 +7,7 @@ function Install-ADDService {
     Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 }
 
-function Promote-DomainController {
+function Promote-ADController {
     param(
         [string]$JSONFile = "$PSScriptRoot\ad_schema.json"   
     )
@@ -31,4 +32,4 @@ function Promote-DomainController {
     GetInput
 }
 
-Export-ModuleMember -Function Install-ADDService, Promote-DomainController
+Export-ModuleMember -Function Install-ADDService, Promote-ADController

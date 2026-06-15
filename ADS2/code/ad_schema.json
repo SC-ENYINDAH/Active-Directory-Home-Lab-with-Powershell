@@ -2,904 +2,904 @@
   "domain": "crais.nsuk.edu.ng",
   "users": [
     {
-      "name": "Philip Anozie",
-      "password": "supermanD9Ren0@_U6>",
+      "name": "Temitope Awolowo",
+      "password": "football@p9Sc/WN",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Engineers"
+      ]
     },
     {
-      "name": "Tolulope Adebanjo",
-      "password": "junioru5JE%",
+      "name": "Samuel Ikpeazu",
+      "password": "pretty5Ga84p+Im",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Engineers"
+      ]
     },
     {
-      "name": "Damilola Dawodu",
-      "password": "andrew980cZ*",
+      "name": "Dolapo Ezeani",
+      "password": "kute4u2:7Ro&",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Engineers"
+      ]
     },
     {
-      "name": "Iretiola Iroegbu",
-      "password": "shadowzmY[9",
+      "name": "Ijeoma Fani-Kayode",
+      "password": "rangersM+48wBn7",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Efe Jega",
-      "password": "narutoQm1fBeH}",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Halima Ganiyu",
-      "password": "busterp+Z3f.62TwI",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ogechi Iwu",
-      "password": "hunter&0.KcM)",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Sikiru Obi",
-      "password": "hannahn-/9IOw^",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Esther Mustapha",
-      "password": "gabriel%L95aOdjB",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Hafsat Mohammed",
-      "password": "good2betrue09O4oVa(+s)",
+      "name": "Rotimi Odili",
+      "password": "bubbles4Br3LwY-}",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Yusuf Adeniyi",
-      "password": "angelsm/Q+9?0Y5",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Michael Adejumo",
-      "password": "princesa&5[7mNv",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Rotimi Nwankwoala",
-      "password": "goonsupl[XFs7iI",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Grace Ezenwa",
-      "password": "rangers=X8&bk5/0",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Jelili Dada",
-      "password": "pac96Lx-c4*A",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Uduak Adegbite",
-      "password": "orange81!c<ghC@4",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Odion Eke",
-      "password": "summer2W}t>H-qh",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Peace Adeola",
-      "password": "jasminelS^2",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Emeka Ahmed",
-      "password": "estrellaC3W$@j>V",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Omotola Azikiwe",
-      "password": "melissaz70xO5:]",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Akintoye Alabi",
-      "password": "sayangp^a9!Ve",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Temitope Ajayi",
-      "password": "rachelk934jD>",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "James Fashola",
-      "password": "fernando6Spbr=9Z1",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Osas Adelakun",
-      "password": "daniellef7(]^YEJ",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Peter Isiguzo",
-      "password": "peppers(5CM;m9",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Aminu Nwankwocha",
-      "password": "thomas*dp0#6w-4E",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Patrick Okonkwo",
-      "password": "basketball,Y1o",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Titi Magaji",
-      "password": "eminemzH7_j*Y(O",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Lamidi Hassan",
-      "password": "bdeadid4?rh2S5]",
+      "name": "Akintoye Agboola",
+      "password": "hotforu<F.IrT8,",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Efe Olumide",
+      "password": "antonioAm.q2pRP",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Hafsat Okeke",
+      "password": "softballv[3T(Bax",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
+    },
+    {
+      "name": "Adaeze Anyanwu",
+      "password": "peanutJN8S,5d(4",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Chiamaka Anigbogu",
+      "password": "christianWm29NdS<5",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Suleiman Jimoh",
+      "password": "manuel<2vc4W",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Chibuzo Nwankwocha",
+      "password": "monicaw:o>Ij[9",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Joy Ndukwe",
+      "password": "charlied@W8gc>",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Jelili Nwafor",
+      "password": "gabriel83Kb.sMH&6",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Chinyere Maku",
+      "password": "cheese*Z0p4",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Ibrahim Ajayi",
+      "password": "sweetieI3FZer5)@v",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Ebuka Obafemi",
+      "password": "jonathan6f9#GtJ;",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Odion Ahmed",
+      "password": "iunie)maSvG5P",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Abiola Kareem",
+      "password": "eminemR,p+1[8",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Jumoke Obiano",
+      "password": "victoria24SxKrI*?",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Kunle Elumelu",
+      "password": "stroke{3W8q",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Uduak Azikiwe",
+      "password": "estrella4}Wq1DA",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Ayodele Adebanjo",
+      "password": "rainbowd+1X]",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Sola Ige",
+      "password": "destinyMF5y0c}@[",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Sikiru Alhassan",
+      "password": "buster7zV54NO*a(",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Daniel Adigun",
+      "password": "dolphin8<3ZyEhoI",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Adesuwa Dawodu",
+      "password": "oakglenf+d3%Lu",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Michael Kalu",
+      "password": "killer4R2t?>",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Ismaila Anozie",
+      "password": "miguelhO)t&4u8",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Ogechi Adegbite",
+      "password": "georgeR6,zr5",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Rasheed Aliyu",
+      "password": "narutoQg2+",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Taiwo Folarin",
+      "password": "goonsup+^On9y",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Engineers"
+      ]
+    },
+    {
+      "name": "Yusuf Eke",
+      "password": "stevenDt%R$Y8",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Emeka Ibrahim",
+      "password": "arsenal6zn[(A",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Iretiola Dada",
+      "password": "jasmineQ6Ef4.uz",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "James Ogunbiyi",
+      "password": "princess1S$nb^96WD]",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Grace Oladipo",
+      "password": "whateverSh35D)",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Moses Agbaje",
+      "password": "danielaLkGT7]*13",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Anayo Adeniyi",
+      "password": "cookied{N,X2J",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Chinonso Musa",
+      "password": "sandra_dt3W62Ku*",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Onyeka Adelakun",
+      "password": "computer^<Slh#47n",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Deborah Danjuma",
+      "password": "cute4u.217{Ga:",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Aminu Adetokunbo",
+      "password": "princesaHrlDW5%d",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Peace Eze",
+      "password": "pokemonn6.g21MdR",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Racheal Emordi",
+      "password": "vanessa{^V0x",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Nneka Anaba",
+      "password": "bornot2b4Q5-^Y8r>",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Titi Adeniran",
+      "password": "alexis1SMh<(Ei0$6",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Kemi Okonkwo",
+      "password": "sweety&KvGd-k94",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
     },
     {
       "name": "Bamidele Mba",
-      "password": "hotforuh54RL+f",
+      "password": "supermanFt3(;&Jw",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Anayo Adebayo",
-      "password": "oakglenAb$t462z",
+      "name": "Kudirat Atanda",
+      "password": "forever1s,QA8{",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Engineers"
+      ]
     },
     {
-      "name": "Janet Ayeni",
-      "password": "whateverPfY5m%3",
+      "name": "Esther Mohammed",
+      "password": "carolina[s.1%4htA",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Personnels"
+      ]
     },
     {
-      "name": "Aisha Odili",
-      "password": "joseph&]St4s-",
+      "name": "Damilola Fashola",
+      "password": "steptZ{7^0)y6k",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "John Adeniran",
-      "password": "corazon67J0IeT[@",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Chiamaka Agboola",
-      "password": "ilovemea7Av92uTR?",
+      "name": "Bello Okafor",
+      "password": "dmayo#pWAag1)6",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Personnels"
+      ]
     },
     {
-      "name": "Deborah Nwosu",
-      "password": "stepf0J25.",
+      "name": "Ngozi Garba",
+      "password": "snoopy20mU,)y",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Joseph Fagbemi",
+      "password": "carloss,<j8d:O9E",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "John Mustapha",
+      "password": "mickey[/RV,5Gk3o9c",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Oyinlola Awolowo",
-      "password": "carlos}:wCTA192",
+      "name": "Oyinlola Obasanjo",
+      "password": "shadow)q^f759J",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Interns"
+      ]
     },
     {
-      "name": "Chidera Ogunleye",
-      "password": "bornot2b5[D23!a=",
+      "name": "Ladi Eneh",
+      "password": "jenniferJcZ5g!0)",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Adekunle Aliyu",
-      "password": "cherryZ4c9^{",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Ismaila Ijewere",
-      "password": "myloveF<feR+C6",
+      "name": "Sarah Hassan",
+      "password": "brittanyDE-1)*6Cw",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Peter Ekwueme",
+      "password": "richardGTM?5=s0",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Osas Ayeni",
+      "password": "babiesuok3H,!",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Omolara Ezeani",
-      "password": "vanessa)2>5!Op",
+      "name": "Chidera Maduka",
+      "password": "lauren;N3j",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Maryam Abubakar",
+      "password": "corazonM1C%?qF",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Human Resources"
+      ]
+    },
+    {
+      "name": "Lukman Alabi",
+      "password": "gunsup%6.0pC5P-",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Gabriel Akintola",
+      "password": "loveyou#@a46i0fT{",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Lukman Atanda",
-      "password": "cookie&50cs]9^K",
+      "name": "Uche Obi",
+      "password": "elizabeth_BVr4gG",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Moses Anaba",
-      "password": "muchmoneys0y8Bc.U7",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Adaeze Makinde",
-      "password": "honey9(Fk2&{1aB",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Chibuzo Momoh",
-      "password": "spongebob.ijBK0=",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Jumoke Bello",
-      "password": "manuel@HvA30",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Suleiman Okeke",
-      "password": "miguelK9+gNv",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Daniel Abubakar",
-      "password": "robert+FXLk?0",
+      "name": "Ikechukwu Nnamani",
+      "password": "heavenIA)3h%E4$n",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ladi Fagbemi",
-      "password": "monica!1]-gS6m",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Mohammed Olumide",
-      "password": "carolinai1HIc<79A[",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Sarah Nwankwo",
-      "password": "heatherY3Z^;ye2i",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Dolapo Aderibigbe",
-      "password": "poohbear0fJBOg{c",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Babajide Jimoh",
-      "password": "maggieN)Gs7!r",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Racheal Ige",
-      "password": "blink18263+2pV/qCeP",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Nnamdi Kareem",
-      "password": "stephaniel6pAXWq%4",
+      "name": "Nnamdi Adejumo",
+      "password": "cherryB7)sh2S6nQ",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Personnels"
+      ]
     },
     {
-      "name": "Uche Ndukwe",
-      "password": "sandra#A{jCh,2d",
+      "name": "Halima Ogunleye",
+      "password": "sakurayHx,5:",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Executives"
+      ]
     },
     {
-      "name": "Lanre Kamaldeen",
-      "password": "alejandroL_1kwXv^8",
+      "name": "Funke Iwuanyanwu",
+      "password": "fernandoEvDk71:?3",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Kudirat Fani-Kayode",
-      "password": "kute4uQw@<V0t",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Samuel Dare",
-      "password": "brandonXN6Rv4=3l",
+      "name": "Gbenga Egbetokun",
+      "password": "honeyacY:L890;*",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Executives"
+      ]
     },
     {
-      "name": "Simisola Iwuanyanwu",
-      "password": "sweetynH3oI+!78Ja",
+      "name": "Lamidi Nwankwo",
+      "password": "diamondqd6U21.",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ijeoma Arigbabu",
-      "password": "teamodqS?9=Nr",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Olamide Kalu",
-      "password": "cristinarS64t_E}d+X",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Kunle Maduka",
-      "password": "themax?^lS70#5",
+      "name": "Chike Aderibigbe",
+      "password": "good2betrue(1f.wMaB",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ifeanyi Obafemi",
-      "password": "barbiem#Vx7C8a@!R",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Chike Danjuma",
-      "password": "victoria9D>f_{i",
+      "name": "Emmanuel Lawal",
+      "password": "rachelb#t9&M3lT",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Developers"
+      ]
     },
     {
-      "name": "Maryam Oladipo",
-      "password": "lauren2(9]k<L4",
+      "name": "Omolara Ezenwa",
+      "password": "angela*3Hf7j",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Rasheed Nnamani",
-      "password": "pretty=,j&4X",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Abiola Maku",
-      "password": "alexandra:UpIG8bw",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Bukola Anyanwu",
-      "password": "patriciagC6cW8K2)q",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ejiro Ihedioha",
-      "password": "rainbow_:mFy6",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Oluwaseun Ogunbiyi",
-      "password": "shorty9D@kc10",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ibrahim Obiano",
-      "password": "nathanYeRg}Q8-n0",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Olumide Adetokunbo",
-      "password": "diamond9V?h2",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Human Resources"
-      ],
-      "ou": "OU=Human Resources, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Chinyere Agbaje",
-      "password": "loveyouVNl-Q1^",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Sales"
-      ],
-      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Bello Eneh",
-      "password": "daniela0wBU:)",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Gabriel Eze",
-      "password": "elizabeth46;qHzSd",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Marketing"
-      ],
-      "ou": "OU=Marketing, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ebuka Kadiri",
-      "password": "dancerA2x:dN#Rh?",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ngozi Akintola",
-      "password": "tinkerbell4b:j6G@d",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ayodele Egbetokun",
-      "password": "adrian?B(NpV^28",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Rebecca Anigbogu",
-      "password": "playboyei8%QBh/(",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Chinonso Emordi",
-      "password": "angelaWN.o41",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Sola Ibrahim",
-      "password": "tweetyL0d3=>!T",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Praise Akande",
-      "password": "jennifer{?1&w7WBzVf",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Kemi Nwafor",
-      "password": "beautiful/0BKFq",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Adesuwa Eboh",
-      "password": "gunsup2>T=E8zF",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Stephen Chukwu",
-      "password": "gingerH6v1m}",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Obinna Ayodeji",
-      "password": "flower1R4%y",
+      "name": "Sani Jega",
+      "password": "secretin1Mm#V>",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Gbenga Okafor",
-      "password": "dragonqp@-N7",
+      "name": "Olamide Ihedioha",
+      "password": "orangeOJo@.2j*",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Victor Balogun",
-      "password": "deoctubreH{r<tn0",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Operations"
-      ],
-      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Joy Lawal",
-      "password": "foreverh.VQ5n",
+      "name": "Femi Makinde",
+      "password": "yellow5mMc+XFu",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Engineers"
-      ],
-      "ou": "OU=Engineers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Ikechukwu Musa",
-      "password": "homeV4/Wzfk",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Joseph Elumelu",
-      "password": "tequiero72+t<KA=",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Funke Adigun",
-      "password": "alexanderAuS(1$5=r9",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Taiwo Amadi",
-      "password": "myspace}k8#)swEVZ9",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Developers"
-      ],
-      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Sani Ekwueme",
-      "password": "cute4uu28Y,Ax6",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Employess"
-      ],
-      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Onyeka Garba",
-      "password": "eyesmbr{-1=G",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Femi Alhassan",
-      "password": "america12zk,BGP",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
-      "groups": [
-        "Executives"
-      ],
-      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng"
-    },
-    {
-      "name": "Amaka Folarin",
-      "password": "princess1l[U4uQ29yV",
-      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "Interns"
-      ],
-      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
     },
     {
-      "name": "Nneka Ikpeazu",
-      "password": "andreatL2yD^Cj5[&",
+      "name": "Amaka Adeola",
+      "password": "alexandra;B40(y.",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
-        "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
+        "Operations"
+      ]
     },
     {
-      "name": "Emmanuel Obasanjo",
-      "password": "beauty!onF4M2<7",
+      "name": "Adekunle Bello",
+      "password": "taylorp*-8btE",
       "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Praise Adebayo",
+      "password": "dancer+25y&Wr)pC",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Bukola Isiguzo",
+      "password": "dragonG8xnb(0;",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Oluwaseun Arigbabu",
+      "password": "cool4schoolJ.4p6Id)T",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Babajide Ganiyu",
+      "password": "eyesGOm742-?",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Ejiro Chukwu",
+      "password": "andrew4:N<k^07",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
       "groups": [
         "SecurityGuard"
-      ],
-      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng"
+      ]
+    },
+    {
+      "name": "Janet Kamaldeen",
+      "password": "summerM0US+h",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Interns, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Interns"
+      ]
+    },
+    {
+      "name": "Mohammed Kadiri",
+      "password": "teamo4A2%m*Pe5",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Obinna Akande",
+      "password": "poohbearIaQ7.?3C",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Stephen Balogun",
+      "password": "andreaFlD4>;!",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Lanre Dare",
+      "password": "josephT7G?x!",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=SecurityGuard, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "SecurityGuard"
+      ]
+    },
+    {
+      "name": "Aisha Ijewere",
+      "password": "robert0jD3H4P@",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Philip Iwu",
+      "password": "beautiful=Ucad>94",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Ifeanyi Nwankwoala",
+      "password": "hello+9=t^sOU6r",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Simisola Amadi",
+      "password": "hearts=Md6f85%}g",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Developers, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Developers"
+      ]
+    },
+    {
+      "name": "Patrick Nwosu",
+      "password": "hottie2fm+s6B4F",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
+    },
+    {
+      "name": "Omotola Iroegbu",
+      "password": "alejandroBP2Rx!;7",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Employess, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Employess"
+      ]
+    },
+    {
+      "name": "Rebecca Magaji",
+      "password": "samanthaM6j:X5s1W",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Sales, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Sales"
+      ]
+    },
+    {
+      "name": "Victor Ayodeji",
+      "password": "blink182z3/1=I0K",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Operations, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Operations"
+      ]
+    },
+    {
+      "name": "Tolulope Eboh",
+      "password": "patriciaD[9(ifE6@8Kb",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Personnels, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Personnels"
+      ]
+    },
+    {
+      "name": "Olumide Momoh",
+      "password": "cristinav4}H6coY",
+      "SafeModeAdministratorPassword": "System.Security.SecureString",
+      "ou": "OU=Executives, DC=crais,DC=nsuk,DC=edu,DC=ng",
+      "groups": [
+        "Executives"
+      ]
     }
   ],
   "groups": [
@@ -907,31 +907,31 @@
       "name": "Employess"
     },
     {
-      "name": "Operations"
-    },
-    {
-      "name": "SecurityGuard"
-    },
-    {
-      "name": "Executives"
-    },
-    {
       "name": "Human Resources"
     },
     {
-      "name": "Marketing"
-    },
-    {
-      "name": "Developers"
+      "name": "Sales"
     },
     {
       "name": "Engineers"
     },
     {
+      "name": "Developers"
+    },
+    {
+      "name": "Personnels"
+    },
+    {
+      "name": "Operations"
+    },
+    {
       "name": "Interns"
     },
     {
-      "name": "Sales"
+      "name": "Executives"
+    },
+    {
+      "name": "SecurityGuard"
     }
   ]
 }

@@ -1,39 +1,48 @@
 Import-Module (Join-Path $PSScriptRoot "Modules\root_schema_generator.psm1")
-
+Import-Module (Join-Path $PSScriptRoot "Modules\Hold_Envariables.psm1")
 param (
         [string]$JSONFile = "$PSScriptRoot\ad_schema.json"
     )
 
-function ADGroup {
+function Create-ADGroup {
     param (
-        [Parameter(Mandatory=$true)]
-        $groupObject,
-        [string]$Path
+        [Parameter(Mandatory=$true)]$groupObject,
+        [string]$DomainName = $global:DomainName,
+        [string]$ou
     )
 
-    #Get the group from the JSON File
+    #Get the group names and paths from the JSON File
     $name = $groupObject.name
+    $path = $groupObject.path
 
-    #Check if group already exists
+    #check if path exists, if not create it 
+    if (-not $path) {
+        $path = Get-GroupPath -DomainName $global:DomainName
+    }
+
+    try {
+        #Check if group already exists
     if (-not (Get-ADGroup -Filter "Name -eq '$name'" -ErrorAction SilentlyContinue)) {
 
-        New-ADGroup -Name $name -GroupScope Global -ErrorAction Stop
+        New-ADGroup -Name $name -GroupScope Global -Path $path -ErrorAction Stop
 
-        Write-Host "[+] Group $name created successfully in $Path [+]" -ForegroundColor Green
-        Write-Log "Group $name created successfully in $Path" "SUCCESS"
+        Write-Host "[+] Group $name created successfully in $path [+]" -ForegroundColor Green
+        Write-Log "Group $name created successfully in $path" "SUCCESS"
     }
     else {
         Write-Host "[!] Group $name already exists, skipping creation." -ForegroundColor Yellow
     }
-    
+    }
+    catch {
+        Write-Host "[-] Failed to create group $name : $_ [-]" -ForegroundColor Red
+        Write-Log "Failed to create group $name. Error: $_" "ERROR"
+    }
 
 }
-
-Add a user to an AD group
-function AddADUser-ToADGroup {
+function Add-UserToADGroup {
     param(
-        [string]$GroupName,
-        [string]$UserSam
+        $GroupName,
+        $UserSam
     )
 
     try {
@@ -47,54 +56,24 @@ function AddADUser-ToADGroup {
     }
 }
 
-
-
-<# On the queue to attend to 
-function Initialize-LabGroups {
-    param([string]$JSONFile = "$PSScriptRoot\ad_schema.json")
-
-    $schema = Get-Content $JSONFile -Raw | ConvertFrom-Json
-    $DomainName = $schema.domain
-    $Users      = $schema.users
-
-    foreach ($user in $Users) {
-        $name   = $user.name
-        $groups = $user.groups
-
-        # Use helper function for SamAccountName
-        $samAccountName = Get-SamAccountName -FullName $name
-
-        foreach ($group in $groups) {
-            # Use helper function for group path
-            $groupPath = Get-GroupPath -DomainName $DomainName
-
-            # Ensure group exists
-            New-LabGroup -Name $group -Path $groupPath
-
-            # Add user to group
-            Add-LabUserToGroup -GroupName $group -UserSam $samAccountName
-        }
-    }
-}
-#>
-
-
-
-
-
-
-
 function CreateGroups_Handle_JSONFile {
 
     $GetJSONFile = Get-Content $JSONFile -Raw | ConvertFrom-Json
     $global:groupName = $GetJSONFile.groups
     $global:DomainName = $GetJSONFile.domain
-    $global:ou = $GetJSONFile.ou
     $global:users = $GetJSONFile.users
 
-    foreach ($group in $GetJSONFile.groups){
-        ADGroup $group
+    foreach ($group in $groupName){
+        Create-ADGroup -groupObject $group -DomainName $global:DomainName
     }  
+
+    foreach ($user in $global:users){
+        $name = $user.name
+
+        foreach ($group in $user.groups) {
+            Add-UserToADGroup -GroupName $group -UserSam (Get-SamAccountName -FullName $name)
+        }
+    }
 
 }
 
