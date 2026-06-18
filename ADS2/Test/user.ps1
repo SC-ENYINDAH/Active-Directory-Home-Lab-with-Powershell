@@ -1,13 +1,13 @@
+
 param(
-    [string]$JSONFile = (Join-Path $PSScriptRoot ".\ad_schema.json"),
-    [string]$RemoteSyslogServer = "192.168.1.100",  
-    [int]$RemoteSyslogPort = 514 
+
+    [string]$JSONFile = (Join-Path $PSScriptRoot ".\ad_schema.json")
 )
 
-$global:firstname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\first_names.txt")
-$global:lastname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\last_names.txt")
-$global:password = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\passwords.txt")
-$global:groups = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\group_names.txt")
+$global:firstname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\first_names.txt")
+$global:lastname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\last_names.txt")
+$global:password = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\passwords.txt")
+$global:groups = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\group_names.txt")
 
 $global:group = @()
 $global:users = @()
@@ -34,7 +34,8 @@ function CreateGroup {
      return, $global:group
 }
 
-function EnhacePassword {
+# Function to generate a random string with complexity requirements
+function ComplexString {
     param (
         [int]$Length = 2
     )
@@ -63,12 +64,13 @@ function EnhacePassword {
     -join ($result | Sort-Object {Get-Random})
 }
 
+
+
 function GetUsers{
 
     param($grps)
 
     for ($i = 0; $i -lt $users_num; $i++) {
-
 
         $fname =  $global:firstname |Get-Random
         $lname =  $global:lastname | Get-Random
@@ -79,10 +81,11 @@ function GetUsers{
         $new_users = ( [ordered] @{
 
             "name" = "$fname $lname"
-            "password" = "$passwd"
-            "groups" = @(($get_random).name)
+            "password" = "$passwd" + (ComplexString)
             "SafeModeAdministratorPassword" = "$SafeModePassword"
-            "path" = "OU=$(($get_random).name), $DN"
+            "ou" = "OU=$(($get_random).name), $DN"
+            "groups" = @(($get_random).name)
+            
             
         } )
     $global:users += $new_users
@@ -165,5 +168,7 @@ function GetInput {
 
 }
 
+GetInput
 
-Export-ModuleMember -Function GetInput, EnhacePassword
+
+

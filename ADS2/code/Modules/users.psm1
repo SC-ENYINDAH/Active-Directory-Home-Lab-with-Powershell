@@ -3,10 +3,10 @@ param(
     [string]$JSONFile = (Join-Path $PSScriptRoot ".\out.json")
 )
 
-$global:firstname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\first_names.txt")
-$global:lastname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\last_names.txt")
-$global:password = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\passwords.txt")
-$global:groups = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\group_names.txt")
+$global:firstname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\first_names.txt")
+$global:lastname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\last_names.txt")
+$global:password = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\passwords.txt")
+$global:groups = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\group_names.txt")
 
 $global:group = @()
 $global:users = @()

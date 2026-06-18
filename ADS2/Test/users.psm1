@@ -1,13 +1,12 @@
 param(
-    [string]$JSONFile = (Join-Path $PSScriptRoot ".\ad_schema.json"),
-    [string]$RemoteSyslogServer = "192.168.1.100",  
-    [int]$RemoteSyslogPort = 514 
+
+    [string]$JSONFile = (Join-Path $PSScriptRoot ".\ad_schema.json")
 )
 
-$global:firstname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\first_names.txt")
-$global:lastname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\last_names.txt")
-$global:password = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\passwords.txt")
-$global:groups = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\..\data\group_names.txt")
+$global:firstname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\first_names.txt")
+$global:lastname = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\last_names.txt")
+$global:password = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\passwords.txt")
+$global:groups = [System.Collections.ArrayList](Get-Content "$PSScriptRoot\data\group_names.txt")
 
 $global:group = @()
 $global:users = @()
@@ -34,35 +33,6 @@ function CreateGroup {
      return, $global:group
 }
 
-function EnhacePassword {
-    param (
-        [int]$Length = 2
-    )
-
-    # Character sets
-    $upper   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray()
-    $lower   = "abcdefghijklmnopqrstuvwxyz".ToCharArray()
-    $digits  = "0123456789".ToCharArray()
-    $special = "!@#$%^&*()-_=+[]{};:,.<>?/".ToCharArray()
-
-    # Ensure at least one of each type
-    $result = @()
-    $result += $upper  | Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
-    $result += $lower  | Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
-    $result += $digits | Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
-    $result += $special| Get-Random -Count (Get-Random -Minimum 1 -Maximum 4)
-
-    # Fill the rest randomly from all sets combined
-    $allChars = ($upper + $lower + $digits + $special)
-    $remaining = $Length - $result.Count
-    if ($remaining -gt 0) {
-        $result += $allChars | Get-Random -Count $remaining
-    }
-
-    # Shuffle and return as string
-    -join ($result | Sort-Object {Get-Random})
-}
-
 function GetUsers{
 
     param($grps)
@@ -80,9 +50,9 @@ function GetUsers{
 
             "name" = "$fname $lname"
             "password" = "$passwd"
-            "groups" = @(($get_random).name)
             "SafeModeAdministratorPassword" = "$SafeModePassword"
-            "path" = "OU=$(($get_random).name), $DN"
+            "groups" = @(($get_random).name)
+            "ou" = "OU=$(($get_random).name), $DN"
             
         } )
     $global:users += $new_users
@@ -165,5 +135,4 @@ function GetInput {
 
 }
 
-
-Export-ModuleMember -Function GetInput, EnhacePassword
+GetInput
