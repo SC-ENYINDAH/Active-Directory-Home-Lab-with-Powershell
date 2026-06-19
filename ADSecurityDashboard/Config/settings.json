@@ -1,0 +1,4 @@
+{
+  "PollingInterval": 60,
+  "MaxLogSizeMB": 100
+}
