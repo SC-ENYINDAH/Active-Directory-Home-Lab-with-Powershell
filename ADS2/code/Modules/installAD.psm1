@@ -36,4 +36,6 @@ function Promote-DomainController {
     Write-Host "[+] Promoted domain controller for $DomainName" -ForegroundColor Green
 }
 
-Export-ModuleMember -Function Install-ADDService, Promote-DomainController
+Export-ModuleMember -Function `
+Install-ADDService, `
+Promote-DomainController

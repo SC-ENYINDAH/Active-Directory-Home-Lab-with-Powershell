@@ -3,7 +3,6 @@ param (
         [string]$JSONFile = "$PSScriptRoot\ad_schema.json"
     )
 
-# Note: Module-level initialization calls commented out - execute manually if needed
 # Set-AccountLockoutPolicy 
 # Set-PasswordSecPolicy
 # GetInput
@@ -11,7 +10,8 @@ param (
 function Test-PasswordPolicy {
     param([string]$Password, [string]$UserName)
 
-    $global:policy = Get-ADDefaultDomainPasswordPolicy
+    #$script:policy = Get-ADDefaultDomainPasswordPolicy
+    $script:policy = Set-PasswordSecPolicy
 
     # Check minimum length
     if ($Password.Length -lt $policy.MinPasswordLength) {
@@ -28,8 +28,7 @@ function Test-PasswordPolicy {
         )
 
         if ($complexityFailed) {
-            Write-Verbose "Password does not meet complexity requirements. Enhancing password."
-            
+            Write-Verbose "Password does not meet complexity requirements. Enhancing password." 
         }
     }
 
@@ -56,7 +55,7 @@ function CreateADUser {
 
         #Create the first and last initials for the username
         $samAccountName = Get-SamAccountName -Fullname $name
-        $userPrincipalName = Get-UserPrincipalName -samAccountName $samAccountName -DomainName $global:DomainName
+        $userPrincipalName = Get-UserPrincipalName -samAccountName $samAccountName -DomainName $script:DomainName
         $username = Get-SamAccountName -UserName $name
 
         <#
@@ -67,7 +66,7 @@ function CreateADUser {
         #>
 
         #Verify that the @Global:DomainName is populated before creating the users
-        if (-not $global:DomainName) {
+        if (-not $script:DomainName) {
             throw "Domain is not defined in JSON file."
 
         }
@@ -102,13 +101,16 @@ function CreateADUser {
 function CreateUser_Handle_JSONFile {
 
     $GetJSONFile = Get-Content $JSONFile -Raw | ConvertFrom-Json
-    $global:DomainName = $GetJSONFile.domain
+    $script:DomainName = $GetJSONFile.domain
    # $Global:Domain = (Get-ADDomain).DNSRoot  // This queries Active Directory for information about the domain and the property of the domain object
 
+    <#
     foreach ($user in $GetJSONFile.users){
         CreateADUser $user
     }  
-
+    #>
 }
 
-Export-ModuleMember -Function CreateUser_Handle_JSONFile
+Export-ModuleMember -Function `
+CreateUser_Handle_JSONFile, `
+CreateADUser

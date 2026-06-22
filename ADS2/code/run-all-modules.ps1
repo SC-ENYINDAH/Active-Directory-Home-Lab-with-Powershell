@@ -1,4 +1,4 @@
-Import-Module .\ADTools.psd1 -Force
+Import-Module (Join-Path $PSScriptRoot ".\ADTools.psd1") -Force
 
 param(
     [string]$Action = "All",
@@ -7,7 +7,7 @@ param(
 )
 
 if (-not $JSONFile) {
-    $JSONFile = Join-Path $PSScriptRoot "ad_schema.json"
+    $JSONFile = Join-Path $PSScriptRoot ".\ad_schema.json"
 }
 if (-not $LogFile) {
     $LogFile = Join-Path $PSScriptRoot "runner.log"
@@ -24,12 +24,8 @@ function Write-Log {
     $timestamp = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
     $entry = "$timestamp [$Level] $Message"
 
-    try {
-        Add-Content -Path $LogFile -Value $entry
-    }
-    catch {
-        Write-Warning "Unable to write to log file: $LogFile. $_"
-    }
+    
+    Add-Content -Path $LogFile -Value $entry
 
     $color = switch ($Level) {
         'SUCCESS' { 'Green' }
@@ -38,10 +34,19 @@ function Write-Log {
         default   { 'White' }
     }
 
-    Write-Host $entry -ForegroundColor $color
+     # Remote syslog forwarding
+    try {
+        $udpClient = New-Object System.Net.Sockets.UdpClient
+        $bytes = [System.Text.Encoding]::UTF8.GetBytes($entry)
+        $udpClient.Send($bytes, $bytes.Length, $RemoteSyslogServer, $RemoteSyslogPort) | Out-Null
+        $udpClient.Close()
+    }
+    catch {
+        Write-Host "Failed to forward log to remote syslog server: $_" -ForegroundColor $color
+    }
 }
 
-# Wrapper with duration tracking
+# Duration tracking
 function Run-Step {
 
     param(
@@ -109,7 +114,6 @@ function Run-GroupCreation {
     }
 }
 
-# --- Orchestration ---
 switch ($Action) {
     "Domain"   { 
         Run-Step "Install AD DS" { Install-ADDService } 
@@ -130,12 +134,13 @@ switch ($Action) {
     }
     "All"      {
         Run-Step "Install AD DS" { Install-ADDService }
+        Run-Step "Set Lockout Policy" { Set-AccountLockoutPolicy}
+        Run-Step "Set Password Policy" { Set-PasswordSecPolicy  }
         Run-Step "Promote Domain Controller" { Promote-DomainController -DomainName $schema.domain }
-        Run-Step "Initialize OUs" { Initialize-OUs -JSONFile $JSONFile }
         Run-Step "Create Groups" { Run-GroupCreation }
         Run-Step "Create Users" { Run-UserCreation }
-        Run-Step "Set Lockout Policy" { Set-AccountLockoutPolicy -Threshold 5 -Duration 30 -Window 15 }
-        Run-Step "Set Password Policy" { Set-PasswordSecPolicy -MinLength 12 -HistoryCount 24 -MaxAge 60 -MinAge 1 }
+        Run-Step "Initialize OUs" { Initialize-OUs -JSONFile $JSONFile }
+              
     }
     default    { Write-Log "Unknown action specified: $Action" "WARN" }
 }

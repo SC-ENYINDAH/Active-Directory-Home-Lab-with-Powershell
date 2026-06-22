@@ -23,4 +23,8 @@ function Get-DomainPath {
     return ($DomainName -split '\.') | ForEach-Object { "DC=$_" } -join ","
 }
 
-Export-ModuleMember -Function Get-SamAccountName, Get-UserPrincipalName, Get-GroupPath, Get-DomainPath
+Export-ModuleMember -Function `
+Get-SamAccountName, `
+Get-UserPrincipalName, `
+Get-GroupPath, `
+Get-DomainPath

@@ -20,5 +20,5 @@ function Set-PasswordSecPolicy {
 }
 
 Export-ModuleMember -Function `
-Set-AccountLockoutPolicy, 
+Set-AccountLockoutPolicy, `
 Set-PasswordSecPolicy

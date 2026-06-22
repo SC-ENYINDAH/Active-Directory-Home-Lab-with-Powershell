@@ -1,6 +1,3 @@
-# Requires ActiveDirectory module (typically available on Domain Controllers)
-# Uncomment to auto-import on module load:
-# Import-Module ActiveDirectory -ErrorAction SilentlyContinue
 
 param (
     [string]$JSONFile = "$PSScriptRoot\ad_schema.json"
@@ -17,12 +14,11 @@ function Initialize-OUs {
     New-ADOrganizationalUnit -Name "Users" -Path $domainPath -ErrorAction SilentlyContinue
     New-ADOrganizationalUnit -Name "Groups" -Path $domainPath -ErrorAction SilentlyContinue
 
-    # get     department names dynamically from the schema groups
+    # get department names dynamically from the schema groups
     foreach ($dept in $schema.groups.name) {
         New-ADOrganizationalUnit -Name $dept -Path "OU=Users,$domainPath" -ErrorAction SilentlyContinue
         New-ADOrganizationalUnit -Name $dept -Path "OU=Groups,$domainPath" -ErrorAction SilentlyContinue
     }
 }
 
-# Module-level function call commented out - execute manually if needed
-# Initialize-OUs -JSONFile $JSONFile
+#Initialize-OUs -JSONFile $JSONFile

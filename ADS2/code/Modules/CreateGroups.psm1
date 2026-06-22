@@ -15,7 +15,7 @@ function Create-ADGroup {
 
     #check if path exists, if not create it 
     if (-not $path) {
-        $path = Get-GroupPath -DomainName $global:DomainName
+        $path = Get-GroupPath -DomainName $script:DomainName
     }
 
     try {
@@ -57,15 +57,15 @@ function Add-UserToADGroup {
 function CreateGroups_Handle_JSONFile {
 
     $GetJSONFile = Get-Content $JSONFile -Raw | ConvertFrom-Json
-    $global:groupName = $GetJSONFile.groups
-    $global:DomainName = $GetJSONFile.domain
-    $global:users = $GetJSONFile.users
+    $script:groupName = $GetJSONFile.groups
+    $script:DomainName = $GetJSONFile.domain
+    $script:users = $GetJSONFile.users
 
     foreach ($group in $groupName){
-        Create-ADGroup -groupObject $group -DomainName $global:DomainName
+        Create-ADGroup -groupObject $group -DomainName $script:DomainName
     }  
 
-    foreach ($user in $global:users){
+    foreach ($user in $script:users){
         $name = $user.name
 
         foreach ($group in $user.groups) {
@@ -75,4 +75,7 @@ function CreateGroups_Handle_JSONFile {
 
 }
 
-Export-ModuleMember -Function Create-ADGroup, Add-UserToADGroup, CreateGroups_Handle_JSONFile
+Export-ModuleMember -Function `
+Create-ADGroup, `
+Add-UserToADGroup, `
+CreateGroups_Handle_JSONFile
