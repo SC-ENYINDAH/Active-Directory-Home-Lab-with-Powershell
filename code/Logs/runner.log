@@ -1,0 +1,7 @@
+2026-06-23 17:52:03 [INFO] Starting step: Install AD DS
+2026-06-23 18:07:16 [INFO] Starting step: Install AD DS
+2026-06-23 18:24:11 [INFO] Starting step: Install AD DS
+2026-06-23 18:29:23 [ERROR] Step Install AD DS failed after -63917836161.0436 seconds: The term 'Install-ADDService' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-06-23 18:29:24 [INFO] Starting step: Set Lockout Policy
+2026-06-23 18:34:25 [ERROR] Step Set Lockout Policy failed after -63917836464.9348 seconds: The term 'Set-AccountLockoutPolicy' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-06-23 18:34:25 [INFO] Starting step: Set Password Policy
